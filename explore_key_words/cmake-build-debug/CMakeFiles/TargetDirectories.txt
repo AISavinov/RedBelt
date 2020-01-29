@@ -1,0 +1,3 @@
+/home/anatoliy/CLionProjects/explore_key_words/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/anatoliy/CLionProjects/explore_key_words/cmake-build-debug/CMakeFiles/explore_key_words.dir
+/home/anatoliy/CLionProjects/explore_key_words/cmake-build-debug/CMakeFiles/edit_cache.dir

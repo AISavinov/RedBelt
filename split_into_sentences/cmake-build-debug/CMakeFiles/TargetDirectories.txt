@@ -1,0 +1,3 @@
+/home/anatoliy/CLionProjects/split_into_sentences/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/anatoliy/CLionProjects/split_into_sentences/cmake-build-debug/CMakeFiles/split_into_sentences.dir
+/home/anatoliy/CLionProjects/split_into_sentences/cmake-build-debug/CMakeFiles/edit_cache.dir

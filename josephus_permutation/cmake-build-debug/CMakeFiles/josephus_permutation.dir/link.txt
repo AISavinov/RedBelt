@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/josephus_permutation.dir/main.cpp.o  -o josephus_permutation 

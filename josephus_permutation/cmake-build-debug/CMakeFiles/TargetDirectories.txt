@@ -1,0 +1,3 @@
+/home/anatoliy/CLionProjects/josephus_permutation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/anatoliy/CLionProjects/josephus_permutation/cmake-build-debug/CMakeFiles/josephus_permutation.dir
+/home/anatoliy/CLionProjects/josephus_permutation/cmake-build-debug/CMakeFiles/edit_cache.dir

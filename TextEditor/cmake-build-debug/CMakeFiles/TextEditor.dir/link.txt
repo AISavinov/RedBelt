@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TextEditor.dir/main.cpp.o  -o TextEditor 

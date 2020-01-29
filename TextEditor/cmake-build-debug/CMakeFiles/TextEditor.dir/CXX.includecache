@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anatoliy/CLionProjects/TextEditor/main.cpp
+string
+-
+cstring
+-
+list
+-
+string_view
+-
+test_runner.h
+/home/anatoliy/CLionProjects/TextEditor/test_runner.h
+
+/home/anatoliy/CLionProjects/TextEditor/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

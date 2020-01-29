@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anatoliy/CLionProjects/split_into_sentences/main.cpp
+test_runner.h
+/home/anatoliy/CLionProjects/split_into_sentences/test_runner.h
+vector
+-
+algorithm
+-
+
+/home/anatoliy/CLionProjects/split_into_sentences/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

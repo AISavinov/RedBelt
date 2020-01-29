@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -g   CMakeFiles/explore_key_words.dir/main.cpp.o  -o explore_key_words 

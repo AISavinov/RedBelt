@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anatoliy/CLionProjects/HTTP/http_request.h
+string_view
+-
+
+/home/anatoliy/CLionProjects/HTTP/stats.cpp
+stats.h
+/home/anatoliy/CLionProjects/HTTP/stats.h
+
+/home/anatoliy/CLionProjects/HTTP/stats.h
+http_request.h
+/home/anatoliy/CLionProjects/HTTP/http_request.h
+string_view
+-
+map
+-
+

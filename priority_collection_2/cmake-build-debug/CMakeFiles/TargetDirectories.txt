@@ -1,0 +1,3 @@
+/home/anatoliy/CLionProjects/priority_collection_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/anatoliy/CLionProjects/priority_collection_2/cmake-build-debug/CMakeFiles/priority_collection_2.dir
+/home/anatoliy/CLionProjects/priority_collection_2/cmake-build-debug/CMakeFiles/edit_cache.dir

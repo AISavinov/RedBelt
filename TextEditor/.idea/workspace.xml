@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="TextEditor" targetName="TextEditor" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="061671a8-44e9-461c-afcc-eeb2eeb8abdc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectId" id="1Q3BirhAaBKBHUbAKfRkyfqnXz7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TextEditor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TextEditor" TARGET_NAME="TextEditor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TextEditor" RUN_TARGET_NAME="TextEditor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="061671a8-44e9-461c-afcc-eeb2eeb8abdc" name="Default Changelist" comment="" />
+      <created>1566989582859</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566989582859</updated>
+      <workItem from="1566989587409" duration="801000" />
+      <workItem from="1567610066813" duration="3434000" />
+      <workItem from="1568654227699" duration="15000" />
+      <workItem from="1568999651628" duration="5851000" />
+      <workItem from="1569856230685" duration="277000" />
+      <workItem from="1569965205832" duration="2064000" />
+      <workItem from="1570563647572" duration="2843000" />
+      <workItem from="1570973312057" duration="25000" />
+      <workItem from="1577529778251" duration="2302000" />
+      <workItem from="1577534122095" duration="2970000" />
+      <workItem from="1577552740120" duration="7126000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1864" height="323" key="GridCell.Tab.0.bottom" timestamp="1577559869069">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="1864" height="323" key="GridCell.Tab.0.bottom/0.34.1920.1046@0.34.1920.1046" timestamp="1577559869069" />
+    <state width="1864" height="323" key="GridCell.Tab.0.center" timestamp="1577559869068">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="1864" height="323" key="GridCell.Tab.0.center/0.34.1920.1046@0.34.1920.1046" timestamp="1577559869068" />
+    <state width="1864" height="323" key="GridCell.Tab.0.left" timestamp="1577559869068">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="1864" height="323" key="GridCell.Tab.0.left/0.34.1920.1046@0.34.1920.1046" timestamp="1577559869068" />
+    <state width="1864" height="323" key="GridCell.Tab.0.right" timestamp="1577559869069">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="1864" height="323" key="GridCell.Tab.0.right/0.34.1920.1046@0.34.1920.1046" timestamp="1577559869069" />
+    <state width="1864" height="323" key="GridCell.Tab.1.bottom" timestamp="1577559869070">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="1864" height="323" key="GridCell.Tab.1.bottom/0.34.1920.1046@0.34.1920.1046" timestamp="1577559869070" />
+    <state width="1864" height="323" key="GridCell.Tab.1.center" timestamp="1577559869070">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="1864" height="323" key="GridCell.Tab.1.center/0.34.1920.1046@0.34.1920.1046" timestamp="1577559869070" />
+    <state width="1864" height="323" key="GridCell.Tab.1.left" timestamp="1577559869069">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="1864" height="323" key="GridCell.Tab.1.left/0.34.1920.1046@0.34.1920.1046" timestamp="1577559869069" />
+    <state width="1864" height="323" key="GridCell.Tab.1.right" timestamp="1577559869070">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="1864" height="323" key="GridCell.Tab.1.right/0.34.1920.1046@0.34.1920.1046" timestamp="1577559869070" />
+    <state x="170" y="165" width="1720" height="846" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577552889191">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="170" y="165" width="1720" height="846" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.34.1920.1046@0.34.1920.1046" timestamp="1577552889191" />
+    <state x="540" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1577552740693">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="540" y="346" key="com.intellij.ide.util.TipDialog/0.34.1920.1046@0.34.1920.1046" timestamp="1577552740693" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1577557815757">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.34.1920.1046@0.34.1920.1046" timestamp="1577557815757" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>100</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>34</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>42</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

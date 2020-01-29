@@ -1,0 +1,1 @@
+/usr/bin/c++   -pthread -g   CMakeFiles/matrix_sum.dir/main.cpp.o  -o matrix_sum 

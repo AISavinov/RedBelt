@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anatoliy/CLionProjects/josephus_permutation/main.cpp
+test_runner.h
+/home/anatoliy/CLionProjects/josephus_permutation/test_runner.h
+cstdint
+-
+iterator
+-
+numeric
+-
+vector
+-
+list
+-
+array
+-
+
+/home/anatoliy/CLionProjects/josephus_permutation/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

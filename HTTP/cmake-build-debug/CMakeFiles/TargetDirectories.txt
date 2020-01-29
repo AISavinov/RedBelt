@@ -1,0 +1,3 @@
+/home/anatoliy/CLionProjects/HTTP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/anatoliy/CLionProjects/HTTP/cmake-build-debug/CMakeFiles/HTTP.dir
+/home/anatoliy/CLionProjects/HTTP/cmake-build-debug/CMakeFiles/edit_cache.dir

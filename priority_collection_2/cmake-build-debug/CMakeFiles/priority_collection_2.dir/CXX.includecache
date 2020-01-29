@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anatoliy/CLionProjects/priority_collection_2/main.cpp
+test_runner.h
+/home/anatoliy/CLionProjects/priority_collection_2/test_runner.h
+algorithm
+-
+iostream
+-
+iterator
+-
+memory
+-
+set
+-
+utility
+-
+vector
+-
+
+/home/anatoliy/CLionProjects/priority_collection_2/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+
