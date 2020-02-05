@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/anatoliy/CLionProjects/concurrent_map/main.cpp" "/home/anatoliy/CLionProjects/concurrent_map/cmake-build-debug/CMakeFiles/concurrent_map.dir/main.cpp.o"
+  "/home/anatoliy/CLionProjects/RedBelt/concurrent_map/main.cpp" "/home/anatoliy/CLionProjects/RedBelt/concurrent_map/cmake-build-debug/CMakeFiles/concurrent_map.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

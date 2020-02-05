@@ -1,4 +1,5 @@
-#include "test_runner.h"
+[200~#include "test_runner.h"
+
 #include "profile.h"
 
 #include <algorithm>
@@ -12,66 +13,76 @@
 
 using namespace std;
 
-template<typename T>
-class Synchronized {
-public:
-	explicit Synchronized(T initial = T())
-			: value(move(initial)) {
-	}
+#pragma once
 
-	struct Access {
-		T &ref_to_value;
-		lock_guard<mutex> guard;
-	};
-
-	Access GetAccess() {
-		return {value, lock_guard(m)};
-	}
-
-private:
-	T value;
-	mutex m;
-};
+#include <map>
+#include <vector>
+#include <mutex>
 
 
 template<typename K, typename V>
 class ConcurrentMap {
 public:
-	using AccessBucket = Synchronized<V>;
+	static_assert(std::is_integral_v<K>, "ConcurrentMap supports only integer keys");
 
-	struct Bucket {
-		map<K, AccessBucket> map_;
+	struct Access {
+		~Access() {
+			mutex.unlock();
+		}
+
+		std::mutex &mutex;
+		V &ref_to_value;
 	};
 
-	explicit ConcurrentMap(size_t bucket_count) : SynchronizedBuckets(bucket_count), SIZE_MAP(bucket_count) {}
+	struct Bucket {
+		std::mutex mutex;
+		std::map<K, V> map_;
+	};
 
-	auto operator[](const K &key) {
-		return SynchronizedBuckets[key_pos(key)].GetAccess().ref_to_value.map_[key].GetAccess();
-	}
+	explicit ConcurrentMap(size_t bucket_count);
 
-	map<K, V> BuildOrdinaryMap() {
-		map<K, V> result;
-		lock_guard<mutex> lock_guard(guard_base);
-		for (auto &bucket : SynchronizedBuckets) {
-			auto bucketAccess = bucket.GetAccess();
-			for (auto&[key, val] : bucketAccess.ref_to_value.map_) {
-				result[key] = val.GetAccess().ref_to_value;
-			}
-		}
-		return result;
-	}
+	Access operator[](const K &key);
+
+	std::map<K, V> BuildOrdinaryMap();
 
 private:
-	using SynchronizedBucket = Synchronized<Bucket>;
-	vector<SynchronizedBucket> SynchronizedBuckets;
-	mutex guard_base;
-	int SIZE_MAP;
-
-	int64_t key_pos(K key) {
-		int64_t num = key;
-		return abs(num) % SIZE_MAP;
-	}
+	std::vector<Bucket> buckets_;
 };
+
+
+template<typename K, typename V>
+ConcurrentMap<K, V>::ConcurrentMap(size_t bucket_count) {
+	buckets_ = std::vector<Bucket>(bucket_count);
+}
+
+
+template<typename K, typename V>
+typename ConcurrentMap<K, V>::Access ConcurrentMap<K, V>::operator[](const K &key) {
+	const size_t i = key % buckets_.size();
+	buckets_[i].mutex.lock();
+
+	if (buckets_[i].map_.count(key) == 0) {
+		buckets_[i].map_.insert({key, V()});
+	}
+
+	return {buckets_[i].mutex, buckets_[i].map_[key]};
+}
+
+
+template<typename K, typename V>
+std::map<K, V> ConcurrentMap<K, V>::BuildOrdinaryMap() {
+	std::map<K, V> result;
+
+	for (size_t i = 0; i < buckets_.size(); ++i) {
+		buckets_[i].mutex.lock();
+
+		result.insert(buckets_[i].map_.begin(), buckets_[i].map_.end());
+
+		buckets_[i].mutex.unlock();
+	}
+
+	return result;
+}
 
 
 void RunConcurrentUpdates(
@@ -159,8 +170,11 @@ void TestSpeedup() {
 int main() {
 	auto size = sizeof(int);
 	TestRunner tr;
-	for (auto i = 0; i < 20; ++i)
+	for (auto i = 0; i < 20; ++i) {
 		RUN_TEST(tr, TestConcurrentUpdate);
-	//RUN_TEST(tr, TestReadAndWrite);
-	//RUN_TEST(tr, TestSpeedup);
+		RUN_TEST(tr, TestReadAndWrite);
+		RUN_TEST(tr, TestSpeedup);
+	}
+
 }
+
